@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+.derecha {
+    text-align: right;
+}
+
+.todo {
+    width: 100%;
+}
+
+.right {
+    float: right;
+    width: 100px;
+}
