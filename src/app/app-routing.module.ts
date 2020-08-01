@@ -5,11 +5,13 @@ import { PrecioComponent } from './componenet/precio/precio.component';
 import { ProtegidaComponent } from './componenet/protegida/protegida.component';
 
 import { AuthGuard} from './services/auth.guard';
+import { ProfileComponent } from './componenet/profile/profile.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   {path:'precio', component:PrecioComponent},
   {path:'protegida', component:ProtegidaComponent, canActivate:[AuthGuard]},
+  {path:'perfil', component:ProfileComponent, canActivate:[AuthGuard]},
   {path:'**', pathMatch:'full', redirectTo:'home'}
 ];
 

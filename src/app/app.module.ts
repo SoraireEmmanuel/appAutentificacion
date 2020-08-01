@@ -9,7 +9,8 @@ import { ProtegidaComponent } from './componenet/protegida/protegida.component';
 import { PrecioComponent } from './componenet/precio/precio.component';
 
 import { AuthService} from './services/auth.service';
-import { CallbackComponent } from './componenet/callback/callback.component'
+import { CallbackComponent } from './componenet/callback/callback.component';
+import { ProfileComponent } from './componenet/profile/profile.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CallbackComponent } from './componenet/callback/callback.component'
     HomeComponent,
     ProtegidaComponent,
     PrecioComponent,
-    CallbackComponent
+    CallbackComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
